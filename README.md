@@ -1,4 +1,4 @@
-tatparya.github.io
-==================
+mywebsite
+=========
 
-Github Pages
+Implementing foundation for personal website
