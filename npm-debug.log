@@ -1,0 +1,337 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower',
+1 verbose cli   'grunt-cli' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'bower', null ]
+5 verbose cache add name=undefined spec="bower" args=["bower",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bower',
+6 verbose parsed url   path: 'bower',
+6 verbose parsed url   href: 'bower' }
+7 verbose cache add [ 'grunt-cli', null ]
+8 verbose cache add name=undefined spec="grunt-cli" args=["grunt-cli",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'grunt-cli',
+9 verbose parsed url   path: 'grunt-cli',
+9 verbose parsed url   href: 'grunt-cli' }
+10 silly lockFile 206e3ce5-bower bower
+11 verbose lock bower /home/tatparya/.npm/206e3ce5-bower.lock
+12 silly lockFile 671ef8ac-grunt-cli grunt-cli
+13 verbose lock grunt-cli /home/tatparya/.npm/671ef8ac-grunt-cli.lock
+14 silly lockFile 671ef8ac-grunt-cli grunt-cli
+15 silly lockFile 671ef8ac-grunt-cli grunt-cli
+16 silly lockFile 206e3ce5-bower bower
+17 silly lockFile 206e3ce5-bower bower
+18 verbose addNamed [ 'grunt-cli', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+21 verbose lock grunt-cli@ /home/tatparya/.npm/d63f3d0b-grunt-cli.lock
+22 verbose addNamed [ 'bower', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 1240aab1-bower bower@
+25 verbose lock bower@ /home/tatparya/.npm/1240aab1-bower.lock
+26 silly addNameRange { name: 'grunt-cli', range: '*', hasData: false }
+27 silly addNameRange { name: 'bower', range: '*', hasData: false }
+28 verbose url raw grunt-cli
+29 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+30 verbose url resolved https://registry.npmjs.org/grunt-cli
+31 info trying registry request attempt 1 at 15:15:05
+32 verbose etag "6K6VZSDEG6YSFJ4DJW2IHT139"
+33 http GET https://registry.npmjs.org/grunt-cli
+34 verbose url raw bower
+35 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+36 verbose url resolved https://registry.npmjs.org/bower
+37 info trying registry request attempt 1 at 15:15:05
+38 verbose etag "2C9MHUMYQWJZ6OPY4SUPHKHB5"
+39 http GET https://registry.npmjs.org/bower
+40 http 304 https://registry.npmjs.org/grunt-cli
+41 silly registry.get cb [ 304,
+41 silly registry.get   { date: 'Mon, 03 Nov 2014 20:15:05 GMT',
+41 silly registry.get     server: 'Apache',
+41 silly registry.get     via: '1.1 varnish',
+41 silly registry.get     'last-modified': 'Mon, 03 Nov 2014 20:14:21 GMT',
+41 silly registry.get     'cache-control': 'max-age=60',
+41 silly registry.get     etag: '"6K6VZSDEG6YSFJ4DJW2IHT139"',
+41 silly registry.get     age: '47',
+41 silly registry.get     'x-served-by': 'cache-ord1730-ORD',
+41 silly registry.get     'x-cache': 'HIT',
+41 silly registry.get     'x-cache-hits': '2',
+41 silly registry.get     'x-timer': 'S1415045705.791967,VS0,VE0',
+41 silly registry.get     vary: 'Accept',
+41 silly registry.get     'content-length': '0',
+41 silly registry.get     'keep-alive': 'timeout=10, max=50',
+41 silly registry.get     connection: 'Keep-Alive' } ]
+42 verbose etag grunt-cli from cache
+43 http 304 https://registry.npmjs.org/bower
+44 silly registry.get cb [ 304,
+44 silly registry.get   { date: 'Mon, 03 Nov 2014 20:15:05 GMT',
+44 silly registry.get     server: 'Apache',
+44 silly registry.get     via: '1.1 varnish',
+44 silly registry.get     'last-modified': 'Mon, 03 Nov 2014 20:15:01 GMT',
+44 silly registry.get     'cache-control': 'max-age=60',
+44 silly registry.get     etag: '"2C9MHUMYQWJZ6OPY4SUPHKHB5"',
+44 silly registry.get     age: '26',
+44 silly registry.get     'x-served-by': 'cache-ord1731-ORD',
+44 silly registry.get     'x-cache': 'HIT',
+44 silly registry.get     'x-cache-hits': '2',
+44 silly registry.get     'x-timer': 'S1415045705.793411,VS0,VE0',
+44 silly registry.get     vary: 'Accept',
+44 silly registry.get     'content-length': '0',
+44 silly registry.get     'keep-alive': 'timeout=10, max=50',
+44 silly registry.get     connection: 'Keep-Alive' } ]
+45 verbose etag bower from cache
+46 silly addNameRange number 2 { name: 'grunt-cli', range: '*', hasData: true }
+47 silly addNameRange versions [ 'grunt-cli',
+47 silly addNameRange   [ '0.1.0',
+47 silly addNameRange     '0.1.1',
+47 silly addNameRange     '0.1.2',
+47 silly addNameRange     '0.1.3',
+47 silly addNameRange     '0.1.4',
+47 silly addNameRange     '0.1.5',
+47 silly addNameRange     '0.1.6',
+47 silly addNameRange     '0.1.7',
+47 silly addNameRange     '0.1.8',
+47 silly addNameRange     '0.1.9',
+47 silly addNameRange     '0.1.10',
+47 silly addNameRange     '0.1.11',
+47 silly addNameRange     '0.1.12',
+47 silly addNameRange     '0.1.13' ] ]
+48 verbose addNamed [ 'grunt-cli', '0.1.13' ]
+49 verbose addNamed [ '0.1.13', '0.1.13' ]
+50 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+51 verbose lock grunt-cli@0.1.13 /home/tatparya/.npm/28997503-grunt-cli-0-1-13.lock
+52 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+53 silly addNameRange versions [ 'bower',
+53 silly addNameRange   [ '0.1.0',
+53 silly addNameRange     '0.1.2',
+53 silly addNameRange     '0.1.3',
+53 silly addNameRange     '0.2.0',
+53 silly addNameRange     '0.3.0',
+53 silly addNameRange     '0.3.1',
+53 silly addNameRange     '0.3.2',
+53 silly addNameRange     '0.4.0',
+53 silly addNameRange     '0.5.0',
+53 silly addNameRange     '0.5.1',
+53 silly addNameRange     '0.6.0',
+53 silly addNameRange     '0.6.1',
+53 silly addNameRange     '0.6.2',
+53 silly addNameRange     '0.6.3',
+53 silly addNameRange     '0.6.4',
+53 silly addNameRange     '0.6.5',
+53 silly addNameRange     '0.6.6',
+53 silly addNameRange     '0.6.7',
+53 silly addNameRange     '0.6.8',
+53 silly addNameRange     '0.7.0',
+53 silly addNameRange     '0.7.1',
+53 silly addNameRange     '0.8.0',
+53 silly addNameRange     '0.8.1',
+53 silly addNameRange     '0.8.2',
+53 silly addNameRange     '0.8.3',
+53 silly addNameRange     '0.8.4',
+53 silly addNameRange     '0.8.5',
+53 silly addNameRange     '0.8.6',
+53 silly addNameRange     '0.9.0',
+53 silly addNameRange     '0.9.1',
+53 silly addNameRange     '0.9.2',
+53 silly addNameRange     '0.10.0',
+53 silly addNameRange     '1.0.0',
+53 silly addNameRange     '1.0.1',
+53 silly addNameRange     '1.0.2',
+53 silly addNameRange     '1.0.3',
+53 silly addNameRange     '1.1.0',
+53 silly addNameRange     '1.1.1',
+53 silly addNameRange     '1.1.2',
+53 silly addNameRange     '1.2.0',
+53 silly addNameRange     '1.2.1',
+53 silly addNameRange     '1.2.2',
+53 silly addNameRange     '1.2.3',
+53 silly addNameRange     '1.2.4',
+53 silly addNameRange     '1.2.5',
+53 silly addNameRange     '1.2.6',
+53 silly addNameRange     '1.2.7',
+53 silly addNameRange     '1.2.8',
+53 silly addNameRange     '1.3.0',
+53 silly addNameRange     '1.3.1',
+53 silly addNameRange     '1.3.2',
+53 silly addNameRange     '1.3.3',
+53 silly addNameRange     '1.3.4',
+53 silly addNameRange     '1.3.5',
+53 silly addNameRange     '1.3.6',
+53 silly addNameRange     '1.3.7',
+53 silly addNameRange     '1.3.8',
+53 silly addNameRange     '1.3.9',
+53 silly addNameRange     '1.3.10',
+53 silly addNameRange     '1.3.11',
+53 silly addNameRange     '1.3.12' ] ]
+54 verbose addNamed [ 'bower', '1.3.12' ]
+55 verbose addNamed [ '1.3.12', '1.3.12' ]
+56 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+57 verbose lock bower@1.3.12 /home/tatparya/.npm/9819431c-bower-1-3-12.lock
+58 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+59 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+60 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+61 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+62 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+63 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+64 silly lockFile 1240aab1-bower bower@
+65 silly lockFile 1240aab1-bower bower@
+66 silly resolved [ { name: 'grunt-cli',
+66 silly resolved     description: 'The grunt command line interface.',
+66 silly resolved     version: '0.1.13',
+66 silly resolved     author: { name: 'Grunt Team' },
+66 silly resolved     homepage: 'http://gruntjs.com/',
+66 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt-cli.git' },
+66 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt-cli/issues' },
+66 silly resolved     licenses: [ [Object] ],
+66 silly resolved     bin: { grunt: 'bin/grunt' },
+66 silly resolved     engines: { node: '>= 0.8.0' },
+66 silly resolved     scripts: { test: 'node bin/grunt test' },
+66 silly resolved     preferGlobal: true,
+66 silly resolved     dependencies: { nopt: '~1.0.10', 'findup-sync': '~0.1.0', resolve: '~0.3.1' },
+66 silly resolved     devDependencies: { grunt: '~0.4.0', 'grunt-contrib-jshint': '~0.2.0' },
+66 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+66 silly resolved     readme: '# grunt-cli [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-cli.png?branch=master)](http://travis-ci.org/gruntjs/grunt-cli)\n> The Grunt command line interface.\n\nInstall this globally and you\'ll have access to the `grunt` command anywhere on your system.\n\n```shell\nnpm install -g grunt-cli\n```\n\n**Note:** The job of the `grunt` command is to load and run the version of Grunt you have installed locally to your project, irrespective of its version.  Starting with Grunt v0.4, you should never install Grunt itself globally.  For more information about why, [please read this](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation).\n\nSee the [Getting Started](http://gruntjs.com/getting-started) guide for more information.\n\n## Shell tab auto-completion\nTo enable tab auto-completion for Grunt, add one of the following lines to your `~/.bashrc` or `~/.zshrc` file.\n\n```bash\n# Bash, ~/.bashrc\neval "$(grunt --completion=bash)"\n```\n\n```bash\n# Zsh, ~/.zshrc\neval "$(grunt --completion=zsh)"\n```\n\n## Installing grunt-cli locally\nIf you prefer the idiomatic Node.js method to get started with a project (`npm install && npm test`) then install grunt-cli locally with `npm install grunt-cli --save-dev`. Then add a script to your `package.json` to run the associated grunt command: `"scripts": { "test": "grunt test" } `. Now `npm test` will use the locally installed `./node_modules/.bin/grunt` executable to run your Grunt commands.\n\nTo read more about npm scripts, please visit the npm docs: [https://npmjs.org/doc/misc/npm-scripts.html](https://npmjs.org/doc/misc/npm-scripts.html).\n',
+66 silly resolved     readmeFilename: 'README.md',
+66 silly resolved     _id: 'grunt-cli@0.1.13',
+66 silly resolved     _from: 'grunt-cli@' },
+66 silly resolved   { name: 'bower',
+66 silly resolved     version: '1.3.12',
+66 silly resolved     description: 'The browser package manager',
+66 silly resolved     author: { name: 'Twitter' },
+66 silly resolved     licenses: [ [Object] ],
+66 silly resolved     repository: { type: 'git', url: 'git://github.com/bower/bower' },
+66 silly resolved     main: 'lib',
+66 silly resolved     homepage: 'http://bower.io',
+66 silly resolved     engines: { node: '>=0.10.0' },
+66 silly resolved     dependencies:
+66 silly resolved      { abbrev: '~1.0.4',
+66 silly resolved        archy: '0.0.2',
+66 silly resolved        'bower-config': '~0.5.2',
+66 silly resolved        'bower-endpoint-parser': '~0.2.2',
+66 silly resolved        'bower-json': '~0.4.0',
+66 silly resolved        'bower-logger': '~0.2.2',
+66 silly resolved        'bower-registry-client': '~0.2.0',
+66 silly resolved        cardinal: '0.4.0',
+66 silly resolved        chalk: '0.5.0',
+66 silly resolved        chmodr: '0.1.0',
+66 silly resolved        'decompress-zip': '0.0.8',
+66 silly resolved        fstream: '~1.0.2',
+66 silly resolved        'fstream-ignore': '~1.0.1',
+66 silly resolved        glob: '~4.0.2',
+66 silly resolved        'graceful-fs': '~3.0.1',
+66 silly resolved        handlebars: '~2.0.0',
+66 silly resolved        inquirer: '0.7.1',
+66 silly resolved        insight: '0.4.3',
+66 silly resolved        'is-root': '~1.0.0',
+66 silly resolved        junk: '~1.0.0',
+66 silly resolved        lockfile: '~1.0.0',
+66 silly resolved        'lru-cache': '~2.5.0',
+66 silly resolved        mkdirp: '0.5.0',
+66 silly resolved        mout: '~0.9.0',
+66 silly resolved        nopt: '~3.0.0',
+66 silly resolved        opn: '~1.0.0',
+66 silly resolved        osenv: '0.1.0',
+66 silly resolved        'p-throttler': '0.1.0',
+66 silly resolved        promptly: '0.2.0',
+66 silly resolved        q: '~1.0.1',
+66 silly resolved        request: '~2.42.0',
+66 silly resolved        'request-progress': '0.3.0',
+66 silly resolved        retry: '0.6.0',
+66 silly resolved        rimraf: '~2.2.0',
+66 silly resolved        semver: '~2.3.0',
+66 silly resolved        'shell-quote': '~1.4.1',
+66 silly resolved        'stringify-object': '~1.0.0',
+66 silly resolved        'tar-fs': '0.5.2',
+66 silly resolved        tmp: '0.0.23',
+66 silly resolved        'update-notifier': '0.2.0',
+66 silly resolved        which: '~1.0.5' },
+66 silly resolved     devDependencies:
+66 silly resolved      { coveralls: '~2.11.0',
+66 silly resolved        'expect.js': '~0.3.1',
+66 silly resolved        grunt: '~0.4.4',
+66 silly resolved        'grunt-cli': '^0.1.13',
+66 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+66 silly resolved        'grunt-contrib-watch': '~0.6.1',
+66 silly resolved        'grunt-exec': '~0.4.2',
+66 silly resolved        'grunt-simple-mocha': '~0.4.0',
+66 silly resolved        istanbul: '~0.3.2',
+66 silly resolved        'load-grunt-tasks': '~0.6.0',
+66 silly resolved        mocha: '~1.21.4',
+66 silly resolved        nock: '~0.46.0',
+66 silly resolved        'node-uuid': '~1.4.1',
+66 silly resolved        proxyquire: '~1.0.1' },
+66 silly resolved     scripts: { test: 'grunt test' },
+66 silly resolved     bin: { bower: 'bin/bower' },
+66 silly resolved     preferGlobal: true,
+66 silly resolved     readme: '# Bower\n\n[![Build Status](https://travis-ci.org/bower/bower.svg?branch=master)](https://travis-ci.org/bower/bower) [![Coverage Status](https://coveralls.io/repos/bower/bower/badge.png?branch=master)](https://coveralls.io/r/bower/bower?branch=master)\n\n<img align="right" height="300" src="http://bower.io/img/bower-logo.png">\n\n> A package manager for the web\n\nBower offers a generic, unopinionated solution to the problem of **front-end package management**, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. There are no system wide dependencies, no dependencies are shared between different apps, and the dependency tree is flat.\n\nBower runs over Git, and is package-agnostic. A packaged component can be made up of any type of asset, and use any type of transport (e.g., AMD, CommonJS, etc.).\n\n**View complete docs on [bower.io](http://bower.io)**\n\n[View all packages available through Bower\'s registry](http://bower.io/search/).\n\n## Install\n\n```sh\n$ npm install -g bower\n```\n\nBower depends on [Node.js](http://nodejs.org/) and [npm](http://npmjs.org/). Also make sure that [git](http://git-scm.com/) is installed as some bower\npackages require it to be fetched and installed.\n\n\n## Usage\n\nSee complete command line reference at [bower.io/docs/api/](http://bower.io/docs/api/)\n\n### Installing packages and dependencies\n\n```sh\n# install dependencies listed in bower.json\n$ bower install\n\n# install a package and add it to bower.json\n$ bower install <package> --save\n\n# install specific version of a package and add it to bower.json\n$ bower install <package>#<version> --save\n```\n\n### Using packages\n\nWe discourage using bower components statically for performance and security reasons (if component has an `upload.php` file that is not ignored, that can be easily exploited to do malicious stuff).\n\nThe best approach is to process components installed by bower with build tool (like [Grunt](http://gruntjs.com/) or [gulp](http://gulpjs.com/)), and serve them concatenated or using module loader (like [RequireJS](http://requirejs.org/)).\n\n### Uninstalling packages\n\nTo uninstall a locally installed package:\n\n```sh\n$ bower uninstall <package-name>\n```\n\n### prezto and oh-my-zsh users\n\nOn `prezto` or `oh-my-zsh`, do not forget to `alias bower=\'noglob bower\'` or `bower install jquery\\#1.9.1`\n\n### Running commands with sudo\n\nBower is a user command, there is no need to execute it with superuser permissions.\nHowever, if you still want to run commands with sudo, use `--allow-root` option.\n\n### Windows users\n\nTo use Bower on Windows, you must install\n[msysgit](http://msysgit.github.io/) correctly. Be sure to check the\noption shown below:\n\n![msysgit](http://f.cl.ly/items/2V2O3i1p3R2F1r2v0a12/mysgit.png)\n\nNote that if you use TortoiseGit and if Bower keeps asking for your SSH\npassword, you should add the following environment variable: `GIT_SSH -\nC:\\Program Files\\TortoiseGit\\bin\\TortoisePlink.exe`. Adjust the `TortoisePlink`\npath if needed.\n\n## Configuration\n\nBower can be configured using JSON in a `.bowerrc` file. Read over available options at [bower.io/docs/config](http://bower.io/docs/config).\n\n## Completion (experimental)\n\n_NOTE_: Completion is still not implemented for the 1.0.0 release\n\nBower now has an experimental `completion` command that is based on, and works\nsimilarly to the [npm completion](https://npmjs.org/doc/completion.html). It is\nnot available for Windows users.\n\nThis command will output a Bash / ZSH script to put into your `~/.bashrc`,\n`~/.bash_profile`, or `~/.zshrc` file.\n\n```sh\n$ bower completion >> ~/.bash_profile\n```\n\n\n## Support\n\n* [StackOverflow](http://stackoverflow.com/questions/tagged/bower)\n* [Mailinglist](http://groups.google.com/group/twitter-bower) - twitter-bower@googlegroups.com\n* [\\#bower](http://webchat.freenode.net/?channels=bower) on Freenode\n\n\n## Contributing\n\nWe welcome contributions of all kinds from anyone. Please take a moment to\nreview the [guidelines for contributing](CONTRIBUTING.md).\n\n* [Bug reports](CONTRIBUTING.md#bugs)\n* [Feature requests](CONTRIBUTING.md#features)\n* [Pull requests](CONTRIBUTING.md#pull-requests)\n\n\n## Bower Team\n\nBower is made by lots of people across the globe, contributions large and small. Our thanks to everyone who has played a part.\n\n### Core team\n\n* [@satazor](https://github.com/satazor)\n* [@wibblymat](https://github.com/wibblymat)\n* [@paulirish](https://github.com/paulirish)\n* [@benschwarz](https://github.com/benschwarz)\n* [@sindresorhus](https://github.com/sindresorhus)\n* [@svnlto](https://github.com/svnlto)\n* [@sheerun](https://github.com/sheerun)\n\n### Bower Alumni\n\n* [@fat](https://github.com/fat)\n* [@maccman](https://github.com/maccman)\n\n\n## License\n\nCopyright (c) 2014 Twitter and other contributors\n\nLicensed under the MIT License\n',
+66 silly resolved     readmeFilename: 'README.md',
+66 silly resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+66 silly resolved     _id: 'bower@1.3.12',
+66 silly resolved     _from: 'bower@' } ]
+67 info install grunt-cli@0.1.13 into /usr/local/lib
+68 info install bower@1.3.12 into /usr/local/lib
+69 info installOne grunt-cli@0.1.13
+70 info installOne bower@1.3.12
+71 info /usr/local/lib/node_modules/grunt-cli unbuild
+72 info /usr/local/lib/node_modules/bower unbuild
+73 verbose tar unpack /home/tatparya/.npm/grunt-cli/0.1.13/package.tgz
+74 silly lockFile 466968dc-local-lib-node-modules-grunt-cli tar:///usr/local/lib/node_modules/grunt-cli
+75 verbose lock tar:///usr/local/lib/node_modules/grunt-cli /home/tatparya/.npm/466968dc-local-lib-node-modules-grunt-cli.lock
+76 silly lockFile cc55e500-npm-grunt-cli-0-1-13-package-tgz tar:///home/tatparya/.npm/grunt-cli/0.1.13/package.tgz
+77 verbose lock tar:///home/tatparya/.npm/grunt-cli/0.1.13/package.tgz /home/tatparya/.npm/cc55e500-npm-grunt-cli-0-1-13-package-tgz.lock
+78 info preuninstall bower@1.3.12
+79 info uninstall bower@1.3.12
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild bower@1.3.12
+82 verbose /usr/local/bin,[object Object] binRoot
+83 info /usr/local/lib/node_modules/bower unbuild
+84 error Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-cli'
+84 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-cli']
+84 error   errno: 3,
+84 error   code: 'EACCES',
+84 error   path: '/usr/local/lib/node_modules/grunt-cli',
+84 error   fstream_type: 'Directory',
+84 error   fstream_path: '/usr/local/lib/node_modules/grunt-cli',
+84 error   fstream_class: 'DirWriter',
+84 error   fstream_stack:
+84 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+84 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+84 error      'Object.oncomplete (fs.js:107:15)' ] }
+85 error Please try running this command again as root/Administrator.
+86 error System Linux 3.13.0-39-generic
+87 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "bower" "grunt-cli"
+88 error cwd /home/tatparya/Desktop/Website/mywebsite
+89 error node -v v0.10.25
+90 error npm -v 1.3.10
+91 error path /usr/local/lib/node_modules/grunt-cli
+92 error fstream_path /usr/local/lib/node_modules/grunt-cli
+93 error fstream_type Directory
+94 error fstream_class DirWriter
+95 error code EACCES
+96 error errno 3
+97 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-cli'
+98 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+98 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+98 error fstream_stack Object.oncomplete (fs.js:107:15)
+99 verbose exit [ 3, true ]
