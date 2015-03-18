@@ -1,4 +1,2 @@
-mywebsite
-=========
-
-Implementing foundation for personal website
+# scrollmagic
+Implementing scrollmagic.js for interactive scrolling
