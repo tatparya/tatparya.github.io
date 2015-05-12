@@ -1,0 +1,36 @@
+/* Header Styles */
+
+.header{
+	display: table;
+	z-index: -1030;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	position: relative;
+	z-index: 0;
+}
+
+.intro-text {
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+
+.brand-heading {
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    z-index: -1030;
+    text-align: center;
+    color: #fff;
+    background: url(../img/cover.jpg) left fixed;
+    background-color: #000;
+    -webkit-animation: fader 2s ease-in-out 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover
+;}

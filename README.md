@@ -1,2 +1,3 @@
-# scrollmagic
-Implementing scrollmagic.js for interactive scrolling
+# Tatparya Shankar
+
+Personal Website Documentation
