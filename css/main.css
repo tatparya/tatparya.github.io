@@ -20,7 +20,7 @@ body {
 }
 
 h1  {
-    color:  #007bb6;
+    color:  #0085FF;
     margin: 0px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -39,11 +39,11 @@ p, li  {
 }
 
 i   {
-    color: #007bb6;
+    color: #0085FF;
 }
 
 hr  {
-    border: 1px solid #007bb6;
+    border: 1px solid #0085FF;
     margin-bottom: 20px;
     color:  #DDD;
     margin: 10px;
@@ -72,7 +72,7 @@ hr  {
     width:      100%;
     padding:    50px;
     z-index:    100px;
-    border-top: 2px solid #007bb6;
+    border-top: 2px solid #0085FF;
     border-bottom: 2px solid #222;
     -webkit-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
@@ -89,7 +89,7 @@ hr  {
     -webkit-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
     box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
-    background-color: #007bb6;
+    background-color: #0085FF;
 }
 
 .jumbotron-alt h1,.jumbotron-alt p,.jumbotron-alt li, .jumbotron-alt i {
@@ -109,11 +109,28 @@ hr  {
 
 /*  Circle Button */
 
+.columns {
+    text-align: center;
+}
 
+.btn-container {
+    padding:    10px;
+}
+
+.fa-large   {
+    font-size:  80px;
+    height:150px;
+    width:150px;
+    padding:    30px;
+    padding-top:35px;
+    border:     2px solid #111;
+    border-radius:  75px;
+    background-color: rgba(0,0,0,0.15);
+}
 
 /*  Footer Styles */
 .footer {
-    border-top: 2px solid #007bb6;
+    border-top: 2px solid #0085FF;
     background-color:   #111;
     height:     50px;
     text-align: center;
