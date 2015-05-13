@@ -16,9 +16,13 @@
     <body>
         <!--	Header     -->
 
-        <div class="intro"
-            data-center="filter: blur(0px);"
-            data-top-center="filter: blur(5px);">
+        <div class="background"
+            data-anchor-target="#intro"
+            data-center="filter:    blur(0px);"
+            data-top-center="filter:    clur(10px);">
+        </div>
+
+        <div class="intro" id="intro">
             <div class="intro-body"
                 data-center="opacity: 1;"
                 data-top-center="opacity: 0;">
@@ -26,6 +30,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <h1 class="brand-heading"></h1>
+                            <hr/>
                             <p class="intro-text"></p>
                         </div>
                     </div>
@@ -35,15 +40,31 @@
 
         <!--    Main Content     -->
         <div class="jumbotron">
-            <div class="row">
-                <div class="sec-header"
-                    data--100-bottom="opacity: 0;"
-                    data-150-top="opacity:1;">
-                    <h1>About Me</h1>
-                </div>
+            <div class="panel-container"
+                data-bottom-top="opacity: 0;"
+                data-center="opacity:1;">
+                <h1>About Me</h1>
                 <div class="hor-rule"
                     data-bottom="width: 0%;"
-                    data-150-top="width:100%;">
+                    data-150-center="width:100%;">
+                    <hr/>
+                </div>
+                <p id="about"></p>
+            </div>
+        </div>
+
+        <div class="trans-panel">
+        </div>
+
+        <div class="jumbotron">
+            <div class="panel-container"
+                data-bottom-top="opacity: 0;"
+                data-center="opacity:1;">
+                <h1>Projects</h1>
+
+                <div class="hor-rule"
+                    data-bottom="width: 0%;"
+                    data-150-center="width:100%;">
                     <hr/>
                 </div>
             </div>
@@ -53,37 +74,36 @@
         </div>
 
         <div class="jumbotron">
-            <div class="row">
-                <div class="sec-header"
-                    data--100-bottom="opacity: 0;"
-                    data-150-top="opacity:1;">
-                    <h1>Projects</h1>
-                </div>
+            <div class="panel-container"
+                data-bottom-top="opacity: 0;"
+                data-center="opacity:1;">
+                <h1>Contact Me</h1>
+
                 <div class="hor-rule"
                     data-bottom="width: 0%;"
-                    data-150-top="width:100%;">
+                    data-150-center="width:100%;">
                     <hr/>
                 </div>
-            </div>
-        </div>
-
-        <div class="trans-panel">
-        </div>
-
-        <div class="jumbotron">
-            <div class="row">
-                <div class="sec-header"
-                    data--100-bottom="opacity: 0;"
-                    data-150-top="opacity:1;">
-                    <h1>Contact Me</h1>
+                <div class="row">
+    				<div class = "large-6 columns panel">
+    					<h4>Email</h4>
+    					<p>
+    					<ul>
+    						<li>tshankar@purdue.edu</li>
+    						<li>tatparya.shankar@gmail.com</li>
+    					</p>
+    				</div>
+    				<div class = "large-6 columns panel">
+    					<h4>Phone</h4>
+    					<p>
+    					<ul>
+    						<li>+1-765-637-3307 ( USA )</li>
+    						<li>+91-9871210095 ( India )</li>
+    					</p>
+    				</div>
                 </div>
-                <div class="hor-rule"
-                    data-bottom="width: 0%;"
-                    data-150-top="width:100%;">
-                    <hr/>
-                </div>
-            </div>
-        </div>
+			</div>
+		</div>
 
         <!--    Footer     -->
         <div class="footer">

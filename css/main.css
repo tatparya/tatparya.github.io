@@ -1,6 +1,9 @@
 /*  Body Styles */
-body {
-    height:     100% !important;
+.background {
+    height:     100%;
+    width:     100%;
+    position: fixed;
+    z-index:-100;
     background: url(../img/cover.jpg) left fixed;
 
     -webkit-background-size: cover;
@@ -9,14 +12,48 @@ body {
     -o-background-size: cover;
 }
 
-p, h1   {
+body {
+    height:     100% !important;
+    background-color:   #111;
+    font-size:  20px;
+}
+
+p, h1, hr   {
     color:  #DDD;
+    margin: 10px;
+}
+
+hr  {
+    border: 1px solid #007bb6;
+    margin-bottom: 20px;
+}
+
+.jumbotron .panel-container    {
+    max-width:  90%;
+    margin-left:    5%;
+    height: 100%;
+    background-color:   rgba(0,0,0,0.2);
+    padding:    50px;
+    border-radius:  10px;
+    z-index: 100;
+}
+
+.row    {
+    width:  100%;
+}
+
+.panel  {
+    border-radius:  10px;
+    padding:    20px;
+    margin:     0px;
+    border:     2px solid #333;
 }
 
 .jumbotron {
     height:     75%;
     width:      100%;
     padding:    50px;
+    z-index:    100px;
     border-top: 2px solid #111;
     border-bottom: 2px solid #111;
     -webkit-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
@@ -34,8 +71,7 @@ p, h1   {
 
 /*  Footer Styles */
 .footer {
-    padding-top:10px;
-    margin: 0px;
+    border-top: 2px solid #007bb6;
     background-color:   #111;
     height:     50px;
     text-align: center;

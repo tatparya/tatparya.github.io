@@ -23,6 +23,12 @@
 
 	}
 
+.intro hr {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}
+
 .intro .intro-body .brand-heading {
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 	color : #E5E5E5;
