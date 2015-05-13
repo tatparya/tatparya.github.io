@@ -1,5 +1,7 @@
 /* Header Styles */
 
+/* Header Styles */
+
 .header{
 	display: table;
 	z-index: -1030;
@@ -32,5 +34,25 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover
-;}
+    -o-background-size: cover;
+	}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: bottom;
+	}
+
+.intro .intro-body .brand-heading {
+	color : #E5E5E5;
+    font-size: 45px;
+    position: relative;
+    -webkit-animation: flyinTextTop 1s ease-in-out 1;
+}
+
+.intro .intro-body .intro-text {
+	color : #333;
+	position: relative;
+    font-size: 30px;
+    padding-bottom: 100px;
+    -webkit-animation: flyinTextBottom 2s ease-in-out 1;
+}
