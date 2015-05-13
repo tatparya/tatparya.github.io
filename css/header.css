@@ -20,8 +20,7 @@
 .intro .intro-body {
 	display: table-cell;
 	vertical-align: bottom;
-
-	}
+}
 
 .intro hr {
 	text-align: center;
@@ -29,12 +28,16 @@
 	margin-left: 25%;
 }
 
+.intro p {
+	text-align: center;
+}
+
 .intro .intro-body .brand-heading {
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 	color : #E5E5E5;
     font-size: 45px;
     position: relative;
-    -webkit-animation: flyinTextTop 1s ease-in-out 1;
+	text-align:	center;
 }
 
 .intro .intro-body .intro-text {
@@ -43,5 +46,4 @@
 	position: relative;
     font-size: 30px;
     padding-bottom: 100px;
-    -webkit-animation: flyinTextBottom 2s ease-in-out 1;
 }

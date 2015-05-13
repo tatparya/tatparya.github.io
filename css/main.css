@@ -16,50 +16,88 @@ body {
     height:     100% !important;
     background-color:   #111;
     font-size:  20px;
+    font-family: 'Roboto', sans-serif;
 }
 
-p, h1, hr   {
+h1  {
+    color:  #007bb6;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4  {
     color:  #DDD;
     margin: 10px;
+}
+
+p, li  {
+    font-size:  25px;
+    margin: 10px;
+    color:  #DDD;
+    text-align: justify;
+}
+
+i   {
+    color: #007bb6;
 }
 
 hr  {
     border: 1px solid #007bb6;
     margin-bottom: 20px;
+    color:  #DDD;
+    margin: 10px;
 }
 
-.jumbotron .panel-container    {
-    max-width:  90%;
-    margin-left:    5%;
-    height: 100%;
-    background-color:   rgba(0,0,0,0.2);
-    padding:    50px;
-    border-radius:  10px;
-    z-index: 100;
-}
+/*  Main Panel Styles */
 
 .row    {
-    width:  100%;
+    max-width:  80%;
+    margin-left:    10%;
 }
 
 .panel  {
-    border-radius:  10px;
+    display:    table-cell;
+    vertical-align: middle;
+    border-radius:  5px;
     padding:    20px;
     margin:     0px;
+    margin-top: 10px;
     border:     2px solid #333;
+    text-align: justify;
+    background-color:   rgba(255,255,255,0.85);
 }
 
 .jumbotron {
-    height:     75%;
+    width:      100%;
+    padding:    50px;
+    z-index:    100px;
+    border-top: 2px solid #007bb6;
+    border-bottom: 2px solid #222;
+    -webkit-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
+    background-color: #111;
+}
+
+.jumbotron-alt {
     width:      100%;
     padding:    50px;
     z-index:    100px;
     border-top: 2px solid #111;
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid #222;
     -webkit-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
     box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
-    background-color: #222;
+    background-color: #007bb6;
+}
+
+.jumbotron-alt h1,.jumbotron-alt p,.jumbotron-alt li, .jumbotron-alt i {
+    color:      #111;
+}
+
+.jumbotron-alt hr {
+    border: 1px solid #111;
 }
 
 .trans-panel {
@@ -69,10 +107,19 @@ hr  {
     -moz-filter: blur(3px);
 }
 
+/*  Circle Button */
+
+
+
 /*  Footer Styles */
 .footer {
     border-top: 2px solid #007bb6;
     background-color:   #111;
     height:     50px;
     text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    color:  #777;
 }

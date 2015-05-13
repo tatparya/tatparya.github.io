@@ -8,10 +8,25 @@ var aboutMe = "I am Tatparya Shankar, currently pursuing an \
 undergraduate degree in the field of Computer Engineering \
 from Purdue University. A very passionate and quick learner \
 with a strong base of object oriented programming. I am very \
-passionate about android development, web development, \
-robotics and graphic designing. I am seeking a challenging \
+passionate about machine learning, cyber security, \
+aritificial intelligence and web development. I am seeking a challenging \
 work environment and a position of responsibility that would \
 allow me to utilize and further refine my technical and \
 interpersonal skills and also enrich my knowledge.";
 
-$("#about").append( aboutMe );
+var interests = ["Aritificial Intelligence", "Machine Learning",
+ "Web Development", "Security", "Mobile App Development"];
+
+var skills = ["C++", "C#", "Python", "Java", "HTML", "JavaScript" ];
+
+$("#about-text").append( aboutMe );
+
+for ( i in interests )
+{
+    $("#interests").append( "<li>" + interests[ i ] + "</li>" );
+}
+
+for ( j in skills )
+{
+    $("#skills").append( "<li>" + skills[ j ] + "</li>" );
+}
