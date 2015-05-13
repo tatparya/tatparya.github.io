@@ -20,13 +20,13 @@
 
         <div class="background"
             data-anchor-target="#intro"
-            data-center="filter:    blur(0px);"
+            data--100-bottom="filter:    blur(0px);"
             data-top-center="filter:    clur(10px);">
         </div>
 
         <div class="intro" id="intro">
             <div class="intro-body"
-                data-center="opacity: 1;"
+                data--100-bottom="opacity: 1;"
                 data-top-center="opacity: 0;">
                 <div class="container">
                     <div class="row">
@@ -34,6 +34,11 @@
                             <h1 class="brand-heading"></h1>
                             <hr/>
                             <p class="intro-text"></p>
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <a href="#section-about"><i class="fa fa-medium fa-angle-double-down"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -41,12 +46,13 @@
         </div>
 
         <!--    Main Content     -->
-        <div class="jumbotron">
+        <div class="jumbotron" id="section-about">
             <div class="section"
                 data-bottom-top="opacity: 0;"
-                data-center="opacity:1;">
+                data-center="opacity:1;"
+                data-anchor-target="#about-header">
                 <div class="row">
-                    <h1>About Me <i class="fa fa-user"></i></h1>
+                    <h1 id="about-header">About Me <i class="fa fa-user"></i></h1>
                     <div class="hor-rule"
                         data-bottom="width: 0%; margin-left: 50%;"
                         data-150-center="width:100%; margin-left: 0%;">
@@ -63,9 +69,10 @@
         <div class="jumbotron-alt">
             <div class="section"
                 data-bottom-top="opacity: 0;"
-                data-center="opacity:1;">
+                data-center="opacity:1;"
+                data-anchor-target="#skills-header">
                 <div class="row">
-                    <h1>Skills And Interests <i class="fa fa-wrench"></i></h1>
+                    <h1 id="skills-header">Skills And Interests <i class="fa fa-wrench"></i></h1>
                     <div class="hor-rule"
                         data-bottom="width: 0%; margin-left: 50%;"
                         data-150-center="width:100%; margin-left: 0%;">
@@ -133,9 +140,10 @@
         <div class="jumbotron">
             <div class="section"
                 data-bottom-top="opacity: 0;"
-                data-center="opacity:1;">
+                data-center="opacity:1;"
+                data-anchor-target="#project-header">
                 <div class="row">
-                    <h1>My Projects <i class="fa fa-file"></i></h1>
+                    <h1 id="project-header">My Projects <i class="fa fa-file"></i></h1>
                     <div class="hor-rule"
                         data-bottom="width: 0%; margin-left: 50%;"
                         data-150-center="width:100%; margin-left: 0%;">
@@ -152,9 +160,10 @@
         <div class="jumbotron-alt">
             <div class="section"
                 data-bottom-top="opacity: 0;"
-                data-center="opacity:1;">
+                data-center="opacity:1;"
+                data-anchor-target="#resume-header">
                 <div class="row">
-                    <h1>Download My Resume <i class="fa fa-list"></i></h1>
+                    <h1 id="resume-header">Download My Resume <i class="fa fa-list"></i></h1>
                     <div class="hor-rule"
                         data-bottom="width: 0%; margin-left: 50%;"
                         data-150-center="width:100%; margin-left: 0%;">
@@ -174,7 +183,7 @@
         <div class="jumbotron">
             <div class="section"
                 data-bottom-top="opacity: 0;"
-                data-center="opacity:1;">
+                data--100-bottom="opacity:1;">
                 <div class="row">
                     <h1>Contact Me <i class="fa fa-phone"></i></h1>
                     <div class="hor-rule"
@@ -204,12 +213,12 @@
         <div class="jumbotron-alt">
             <div class="section"
                 data-bottom-top="opacity: 0;"
-                data-400-center="opacity:1;">
+                data--50-bottom="opacity:1;">
                 <div class="row">
                     <h1>Get in touch with me! <i class="fa fa-comment"></i></h1>
                     <div class="hor-rule"
                         data-bottom="width: 0%; margin-left: 50%;"
-                        data-400-center="width:100%; margin-left: 0%;">
+                        data--50-bottom="width:100%; margin-left: 0%;">
                         <hr/>
                     </div>
                 </div>
