@@ -1,20 +1,42 @@
-
 /*  Body Styles */
+body {
+    height:     100% !important;
+    background: url(../img/cover.jpg) left fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+p, h1   {
+    color:  #DDD;
+}
+
 .jumbotron {
-    height:     500px;
+    height:     75%;
     width:      100%;
     padding:    50px;
-    border-top: 2px solid;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
     -webkit-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
     box-shadow: 0px -2px 20px -1px rgba(0,0,0,0.75);
-    background-color: #252525;
+    background-color: #222;
 }
 
-.main-content h1 {
-    color:      #999;
+.trans-panel {
+    height:     50%;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
 }
 
-body {
-    height:     100% !important;
+/*  Footer Styles */
+.footer {
+    padding-top:10px;
+    margin: 0px;
+    background-color:   #111;
+    height:     50px;
+    text-align: center;
 }

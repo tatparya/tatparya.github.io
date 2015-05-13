@@ -2,24 +2,6 @@
 
 /* Header Styles */
 
-.header{
-	display: table;
-	z-index: -1030;
-	width: 100%;
-	height: 100%;
-	background-color: #000;
-	position: relative;
-	z-index: 0;
-}
-
-.intro-text {
-	text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
-}
-
-.brand-heading {
-	text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-}
-
 .intro {
     display: table;
     width: 100%;
@@ -28,9 +10,7 @@
     z-index: -1030;
     text-align: center;
     color: #fff;
-    background: url(../img/cover.jpg) left fixed;
-    background-color: #000;
-    -webkit-animation: fader 2s ease-in-out 1;
+    background: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -38,11 +18,13 @@
 	}
 
 .intro .intro-body {
-    display: table-cell;
-    vertical-align: bottom;
+	display: table-cell;
+	vertical-align: bottom;
+
 	}
 
 .intro .intro-body .brand-heading {
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 	color : #E5E5E5;
     font-size: 45px;
     position: relative;
@@ -50,7 +32,8 @@
 }
 
 .intro .intro-body .intro-text {
-	color : #333;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+	color : #FFF;
 	position: relative;
     font-size: 30px;
     padding-bottom: 100px;
