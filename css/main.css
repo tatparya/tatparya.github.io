@@ -19,7 +19,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1  {
+h1, h3  {
     color:  #0087FF;
     margin: 0px;
     text-align: center;
@@ -102,7 +102,7 @@ hr  {
     background-color: #0087FF;
 }
 
-.jumbotron-alt h1,.jumbotron-alt p,.jumbotron-alt li, .jumbotron-alt i {
+.jumbotron-alt h1, .jumbotron-alt h3,.jumbotron-alt p,.jumbotron-alt li, .jumbotron-alt i {
     color:      #111;
 }
 
@@ -139,6 +139,13 @@ hr  {
     background-color: rgba( 0,0,0,0.7 );
 }
 
+/*  Overlay Grids */
+
+.overlay-info {
+    height: 100%;
+    width:  100%;
+}
+
 /*  Circle Button */
 
 .columns {
@@ -149,6 +156,10 @@ hr  {
     padding:    10px;
 }
 
+.grid-cell  {
+    margin: 20px;
+}
+
 .fa-large   {
     font-size:  60px;
     height:     150px;
@@ -157,11 +168,21 @@ hr  {
     padding-top:45px;
     border:     2px solid #111;
     border-radius:  75px;
-    background-color: #111;
+    color:  #111;
+    background-color: #0087FF;
+    margin-bottom:  20px;
 }
 
-.btn-icon i {
-    color:      #0087FF;
+.fa-large-icon   {
+    font-size:  60px;
+    height:     150px;
+    width:      150px;
+    padding:    30px;
+    padding-top:45px;
+    border:     2px solid #0087FF;
+    border-radius:  75px;
+    background-color: #111;
+    margin-bottom:  20px;
 }
 
 .fa-medium   {

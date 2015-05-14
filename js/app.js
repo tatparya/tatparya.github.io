@@ -26,6 +26,7 @@ var initInfo = function(){
 
     1. Steganography
     2. Graphing
-    3. Android Dev
-    4. BST
+    3. Twitter Connections
+    4. BST yelp
+    5. Arduino Game
 */
