@@ -17,4 +17,15 @@ var initInfo = function(){
     allow me to utilize and further refine my technical and \
     interpersonal skills and also enrich my knowledge.";
 
+    $("#about-text").append( aboutMe );
+
 }
+
+/*
+    PROJECTS:
+
+    1. Steganography
+    2. Graphing
+    3. Android Dev
+    4. BST
+*/
