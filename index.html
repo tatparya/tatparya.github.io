@@ -35,8 +35,8 @@
                             <hr/>
                             <p class="intro-text"></p>
                             <div class="btn-container">
-                                <div class="btn-icon">
-                                    <a href="#section-about"><i class="fa fa-medium fa-angle-double-down"></i></a>
+                                <div class="btn-icon" >
+                                    <a href="#about-section" id="customScroll"><i class="fa fa-medium fa-angle-double-down"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
         </div>
 
         <!--    Main Content     -->
-        <div class="jumbotron" id="section-about">
+        <div class="jumbotron" id="about-section">
             <div class="section"
                 data-bottom-top="opacity: 0;"
                 data-center="opacity:1;"
@@ -230,6 +230,9 @@
             </div>
         </div>
 
+        <div class="trans-panel">
+        </div>
+
         <!--    Footer     -->
         <div class="footer">
             <p>
@@ -239,13 +242,15 @@
 
         <!--    Scripts     -->
         <script src="js/vendor/jquery.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
         <script src="js/main.js"></script>
         <script src="js/app.js"></script>
+        <script src="js/customScroll.js"></script>
         <script src="js/skrollr.js"></script>
         <script src="js/foundation.min.js"></script>
         <script>
           $(document).foundation();
-          var s = skrollr.init();
+          initInfo();
         </script>
     </body>
 </html>

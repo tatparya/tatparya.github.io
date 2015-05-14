@@ -1,32 +1,36 @@
-var name = "Tatparya Shankar";
-var tag = "Engineer | Programmer | Designer";
+var initInfo = function(){
 
-$(".brand-heading").append( name );
-$(".intro-text").append( tag );
+    var name = "Tatparya Shankar";
+    var tag = "Engineer | Programmer | Designer";
 
-var aboutMe = "I am Tatparya Shankar, currently pursuing an \
-undergraduate degree in the field of Computer Engineering \
-from Purdue University. A very passionate and quick learner \
-with a strong base of object oriented programming. I am very \
-passionate about machine learning, cyber security, \
-aritificial intelligence and web development. I am seeking a challenging \
-work environment and a position of responsibility that would \
-allow me to utilize and further refine my technical and \
-interpersonal skills and also enrich my knowledge.";
+    $(".brand-heading").append( name );
+    $(".intro-text").append( tag );
 
-var interests = ["Aritificial Intelligence", "Machine Learning",
- "Web Development", "Security", "Mobile App Development"];
+    var aboutMe = "I am Tatparya Shankar, currently pursuing an \
+    undergraduate degree in the field of Computer Engineering \
+    from Purdue University. A very passionate and quick learner \
+    with a strong base of object oriented programming. I am very \
+    passionate about machine learning, cyber security, \
+    aritificial intelligence and web development. I am seeking a challenging \
+    work environment and a position of responsibility that would \
+    allow me to utilize and further refine my technical and \
+    interpersonal skills and also enrich my knowledge.";
 
-var skills = ["C++", "C#", "Python", "Java", "HTML", "JavaScript" ];
+    var interests = ["Aritificial Intelligence", "Machine Learning",
+     "Web Development", "Security", "Mobile App Development"];
 
-$("#about-text").append( aboutMe );
+    var skills = ["C++", "C#", "Python", "Java", "HTML", "JavaScript" ];
 
-for ( i in interests )
-{
-    $("#interests").append( "<li>" + interests[ i ] + "</li>" );
-}
+    $("#about-text").append( aboutMe );
 
-for ( j in skills )
-{
-    $("#skills").append( "<li>" + skills[ j ] + "</li>" );
+    for ( i in interests )
+    {
+        $("#interests").append( "<li>" + interests[ i ] + "</li>" );
+    }
+
+    for ( j in skills )
+    {
+        $("#skills").append( "<li>" + skills[ j ] + "</li>" );
+    }
+
 }
