@@ -10,7 +10,7 @@ $(function(){
         var pos = $( target ).position().top;
 
         //  Scroll / animate to the anchor
-        $( "body,html" ).animate({ scrollTop: pos }, 1000, "easeInOutCubic" );
+        $( "body,html" ).animate({ scrollTop: pos }, 2000, "easeInOutCubic" );
 
     });
 
