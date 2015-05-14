@@ -16,14 +16,31 @@
 
     <!--    Body     -->
     <body>
-        <!--	Header     -->
-
+        <!--	Background     -->
         <div class="background"
             data-anchor-target="#intro"
             data--100-bottom="filter:    blur(0px);"
             data-top-center="filter:    clur(10px);">
         </div>
 
+        <!--	Left nav     -->
+        <div class="small-nav"
+            data--100-bottom="opacity: 0;"
+            data-top-center="opacity: 1;"
+            data-anchor-target="#section-about">
+            <i class="fa fa-small fa-angle-up">
+            </i>
+            <i class="fa fa-small">
+            </i>
+            <i class="fa fa-small">
+            </i>
+            <i class="fa fa-small">
+            </i>
+            <i class="fa fa-small fa-angle-down">
+            </i>
+        </div>
+
+        <!--	Header     -->
         <div class="intro" id="intro">
             <div class="intro-body"
                 data--100-bottom="opacity: 1;"
@@ -36,7 +53,7 @@
                             <p class="intro-text"></p>
                             <div class="btn-container">
                                 <div class="btn-icon" >
-                                    <a href="#about-section" id="customScroll"><i class="fa fa-medium fa-angle-double-down"></i></a>
+                                    <a href="#section-about" id="customScroll"><i class="fa fa-medium fa-angle-double-down"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +63,7 @@
         </div>
 
         <!--    Main Content     -->
-        <div class="jumbotron" id="about-section">
+        <div class="jumbotron" id="section-about">
             <div class="section"
                 data-bottom-top="opacity: 0;"
                 data-center="opacity:1;"
@@ -66,7 +83,7 @@
                 </div>
             </div>
         </div>
-        <div class="jumbotron-alt">
+        <div class="jumbotron-alt" id="section-skills">
             <div class="section"
                 data-bottom-top="opacity: 0;"
                 data-center="opacity:1;"
@@ -137,7 +154,7 @@
         <div class="trans-panel">
         </div>
 
-        <div class="jumbotron">
+        <div class="jumbotron" id="section-projects">
             <div class="section"
                 data-bottom-top="opacity: 0;"
                 data-center="opacity:1;"
@@ -157,13 +174,13 @@
                 </div>
             </div>
         </div>
-        <div class="jumbotron-alt">
+        <div class="jumbotron-alt" id="section-resume">
             <div class="section"
                 data-bottom-top="opacity: 0;"
                 data-center="opacity:1;"
                 data-anchor-target="#resume-header">
                 <div class="row">
-                    <h1 id="resume-header">Download My Resume <i class="fa fa-list"></i></h1>
+                    <h1 id="resume-header">View My Resume <i class="fa fa-list"></i></h1>
                     <div class="hor-rule"
                         data-bottom="width: 0%; margin-left: 50%;"
                         data-150-center="width:100%; margin-left: 0%;">
@@ -172,7 +189,9 @@
                 </div>
                 <div class="row">
                     <div class="large-12 columns">
-                        <p id="about-text"></p>
+                        <form method="get" action="Tatparya_Shankar_Resume_Spring2015.pdf">
+                            <button class="btn-large" type="submit"><p>View Resume</p></button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -180,7 +199,7 @@
 
         <div class="trans-panel">
         </div>
-        <div class="jumbotron">
+        <div class="jumbotron" id="section-contact">
             <div class="section"
                 data-bottom-top="opacity: 0;"
                 data--100-bottom="opacity:1;">
@@ -208,23 +227,19 @@
     					</ul>
     				</div>
                 </div>
+
             </div>
         </div>
-        <div class="jumbotron-alt">
+        <div class="jumbotron-alt" id="section-email">
             <div class="section"
                 data-bottom-top="opacity: 0;"
                 data--50-bottom="opacity:1;">
                 <div class="row">
-                    <h1>Get in touch with me! <i class="fa fa-comment"></i></h1>
+                    <h1>Find Me On Social Media <i class="fa fa-comment"></i></h1>
                     <div class="hor-rule"
                         data-bottom="width: 0%; margin-left: 50%;"
                         data--50-bottom="width:100%; margin-left: 0%;">
                         <hr/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="large-12 columns">
-                        <p id="about-text"></p>
                     </div>
                 </div>
             </div>

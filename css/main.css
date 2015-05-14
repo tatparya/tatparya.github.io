@@ -49,6 +49,16 @@ hr  {
     margin: 10px;
 }
 
+/*  Left Nav Styles */
+
+.small-nav  {
+    display:    block;
+    position: fixed;
+    width:  4%;
+    padding-left:1%;
+    top: 35%;
+}
+
 /*  Main Panel Styles */
 
 .row    {
@@ -107,6 +117,28 @@ hr  {
     -moz-filter: blur(3px);
 }
 
+/*  Button Styles */
+
+.btn-large  {
+    padding:    10px;
+    height: 80px;
+    width:  40%;
+    margin-top:     40px;
+    background-color: rgba( 0,0,0,0.5 );
+    border: 2px solid #111;
+    border-radius: 5px;
+
+}
+
+.btn-large p {
+    text-align: center;
+    color:  #111;
+}
+
+.btn-large:hover {
+    background-color: rgba( 0,0,0,0.7 );
+}
+
 /*  Circle Button */
 
 .columns {
@@ -142,6 +174,23 @@ hr  {
     border:     1px solid #111;
     border-radius:  75px;
     background-color: rgba(0,0,0,0.15);
+}
+
+.fa-small   {
+    text-align: center;
+    color:  #111;
+    font-size:``  30px;
+    height:     40px;
+    width:      40px;
+    padding-top:    9px;
+    border:     1px solid #111;
+    border-radius:  75px;
+    margin: 5px;
+    background-color: rgba(200,200,200,0.25);
+}
+
+.fa-small:hover {
+    background-color: rgba(200,200,200,0.60)
 }
 
 .fa-angle-double-down:hover {
