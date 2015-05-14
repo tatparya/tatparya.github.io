@@ -124,32 +124,73 @@ hr  {
     height: 80px;
     width:  40%;
     margin-top:     40px;
-    background-color: rgba( 0,0,0,0.5 );
+    background-color: #111;
     border: 2px solid #111;
     border-radius: 5px;
 
 }
 
+.btn-large-form  {
+    padding:    10px;
+    height: 80px;
+    width:  100%;
+    margin-top:     40px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #CCC;
+    border-radius: 5px;
+
+}
+
+.btn-large-form p, .btn-large-form i {
+    text-align: center;
+    color:  #CCC;
+}
+
 .btn-large p {
     text-align: center;
-    color:  #111;
+    color:  #0087FF;
 }
 
 .btn-large:hover {
-    background-color: rgba( 0,0,0,0.7 );
+    background-color: rgba( 0,0,0,0 );
+}
+
+.btn-large-form:hover {
+    background-color: #0087FF;
+    border: 1px solid #CCC;
+}
+
+.btn-large:hover p {
+    color:  #111;
 }
 
 /*  Overlay Grids */
 
 .overlay-info {
-    height: 100%;
-    width:  100%;
+    display:    none;
+    position:   absolute;
+    bottom:        0px;
+    overflow:   visible;
+    width:      100%;
+    border:     2px solid #0087FF;
+    background-color:   #111;
+    padding:    15px;
+    z-index:    100px;
+}
+
+.overlay-info p {
+    font-size:  20px;
+}
+
+.overlay-info b {
+    color: #0087FF;
 }
 
 /*  Circle Button */
 
 .columns {
     text-align: center;
+    overflow: visible;
 }
 
 .btn-container {
@@ -210,12 +251,53 @@ hr  {
     background-color: rgba(200,200,200,0.25);
 }
 
+i.fa-social{
+    background-color: #111;
+    color:  #0087FF;
+}
+
+i.fa-facebook:hover{
+    background-color: #3b5998;
+    border: 2px solid #3b5998;
+    color:  #FFF;
+}
+
+i.fa-linkedin:hover{
+    background-color: #007bb6;
+    border: 2px solid #007bb6;
+    color:  #FFF;
+}
+
+i.fa-twitter:hover{
+    background-color: #00aced;
+    border: 2px solid #00aced;
+    color:  #FFF;
+}
+
+i.fa-github-alt:hover{
+    background-color: #000;
+    border: 2px solid #000;
+    color:  #FFF;
+}
+
+
 .fa-small:hover {
-    background-color: rgba(200,200,200,0.60)
+    background-color: rgba(200,200,200,0.60);
 }
 
 .fa-angle-double-down:hover {
     background-color: rgba(0,0,0,0.25);
+}
+
+/*  Form Styles */
+
+input, textarea   {
+    padding: 30px !important;
+    font-size: 20px !important;
+}
+
+textarea  {
+    min-height: 300px;
 }
 
 /*  Footer Styles */
