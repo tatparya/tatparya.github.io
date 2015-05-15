@@ -230,10 +230,17 @@ i.fa-angle-double-up    {
     padding-top:25px;
 }
 
+i.fa-angle-double-up:hover    {
+    background-color:   #0875BD;
+    color: #111;
+    padding-top:25px;
+}
+
 .btn-icon-up    {
     text-align:     center;
-    position:       relative;
-    top:         100px;
+    position:       absolute;
+    z-index: 100;
+    margin-left: 45%;
 }
 
 .fa-small   {

@@ -410,7 +410,7 @@
                     <div class="row">
                         <div class="large-12 columns">
                             <a href="#" data-reveal-id="myModal">
-                                <button id="#section-form" class="btn-large form-reveal customScroll" onclick="return false;"><p>Email Me Now</p></button>
+                                <button id="#section-form" class="btn-large form-reveal customScroll" onclick="return false;"><p>Get in touch with me</p></button>
                             </a>
                         </div>
                     </div>
@@ -421,7 +421,7 @@
                             <p>Please fill in the form below to get in touch!</p>
 
                             <!--    Contact Form    -->
-                            <form action="mailer.php" method="post">
+                            <form action="\mailer.php" method="post">
                                 <div class="row">
                                     <div class="large-2 columns medium-4">
                                         <p>
@@ -430,7 +430,7 @@
                                     </div>
                                     <div class="large-10 columns medium-6">
                                         <label>
-                                            <input type="text" name="name">
+                                            <input class="field" type="text" name="name">
                                         </label>
                                     </div>
                                 </div>
@@ -442,7 +442,7 @@
                                     </div>
                                     <div class="large-10 columns medium-6">
                                         <label>
-                                            <input type="email" name="email">
+                                            <input class="field" type="email" name="email">
                                         </label>
                                     </div>
                                 </div>
@@ -454,7 +454,7 @@
                                     </div>
                                     <div class="large-10 columns medium-6">
                                         <label>
-                                            <input type="text" name="subject">
+                                            <input class="field" type="text" name="subject">
                                         </label>
                                     </div>
                                 </div>
@@ -466,16 +466,23 @@
                                     </div>
                                     <div class="large-10 columns medium-6">
                                         <label>
-                                            <textarea name="body"></textarea>
+                                            <textarea class="field" name="body"></textarea>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="large-12 columns medium-12">
-                                        <button class="btn-large" type="submit"><p>Send <i class="fa fa-send"></i></p></button>
+                                        <button id="#section-contact" class="btn-large btn-send" type="submit"><p>Send <i class="fa fa-send"></i></p></button>
                                     </div>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns thanks" style="display:none;">
+                            <p style="text-align: center; position: relative; ">
+                                <b><i class="fa fa-quote-left"></i> Thank You! Your email was successfully sent.</b>
+                            </p>
                         </div>
                     </div>
                 </div>
