@@ -31,17 +31,17 @@
         <!--	Left nav     -->
         <div class="small-nav"
             data--100-bottom="opacity: 0;"
-            data-top-center="opacity: 1;"
+            data-top-top="opacity: 1;"
             data-anchor-target="#section-about">
-            <i class="fa fa-small fa-angle-up">
+            <i id="u" class="fa fa-small-up fa-angle-up customScroll-up-down">
             </i>
-            <i class="fa fa-small">
+            <i id="#section-about" class="fa fa-small about fa-active customScroll">
             </i>
-            <i class="fa fa-small">
+            <i id="#section-projects" class="fa fa-small projects customScroll">
             </i>
-            <i class="fa fa-small">
+            <i id="#section-social" class="fa fa-small social customScroll">
             </i>
-            <i class="fa fa-small fa-angle-down">
+            <i id="d" class="fa fa-small-down fa-angle-down customScroll-up-down">
             </i>
         </div>
 
@@ -58,7 +58,7 @@
                             <p class="intro-text"></p>
                             <div class="btn-container">
                                 <div class="btn-icon" >
-                                    <a href="#section-about" id="customScroll"><i class="fa fa-medium fa-angle-double-down"></i></a>
+                                    <a id="#section-about" class="customScroll"><i class=" fa fa-medium fa-angle-double-down"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -336,7 +336,7 @@
 
         <div class="trans-panel">
         </div>
-        <div class="jumbotron" id="section-email">
+        <div class="jumbotron" id="section-social">
             <div class="section"
                 data-bottom-top="opacity: 0;"
                 data--50-bottom="opacity:1;">
@@ -475,10 +475,16 @@
                         <a class="close-reveal-modal" aria-label="Close">&#215;</a>
                    </div>
                 </div>
+                <div class="btn-icon-up" >
+                    <a id="#intro" class="customScroll"><i class="fa fa-medium fa-angle-double-up"></i></a>
+                </div>
+
             </div>
+
         </div>
 
-        <div class="trans-panel">
+        <div class="trans-panel" style="text-align:center">
+
         </div>
 
         <!--    Footer     -->
@@ -493,6 +499,7 @@
         <script src="js/main.js"></script>
         <script src="js/app.js"></script>
         <script src="js/customScroll.js"></script>
+        <script src="js/customNav.js"></script>
         <script src="js/infoBox.js"></script>
         <script src="js/skrollr.js"></script>
         <script src="js/foundation.min.js"></script>

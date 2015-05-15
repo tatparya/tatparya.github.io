@@ -111,6 +111,8 @@ hr  {
 }
 
 .trans-panel {
+    position:relative;
+    z-index:    -100;
     height:     50%;
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -227,7 +229,7 @@ hr  {
 }
 
 .fa-medium   {
-    color:  #111;
+    color:  #0087FF;
     font-size:  50px;
     height:     100px;
     width:      100px;
@@ -236,6 +238,18 @@ hr  {
     border:     1px solid #111;
     border-radius:  75px;
     background-color: rgba(0,0,0,0.15);
+}
+
+i.fa-angle-double-up    {
+    background-color:   #111;
+    color: #0087FF;
+    padding-top:25px;
+}
+
+.btn-icon-up    {
+    text-align:     center;
+    position:       relative;
+    top:         100px;
 }
 
 .fa-small   {
@@ -249,6 +263,31 @@ hr  {
     border-radius:  75px;
     margin: 5px;
     background-color: rgba(200,200,200,0.25);
+}
+
+.fa-small-up, .fa-small-down   {
+    text-align: center;
+    color:  #111;
+    font-size:``  30px;
+    height:     40px;
+    width:      40px;
+    padding-top:    9px;
+    border:     1px solid #111;
+    border-radius:  75px;
+    margin: 5px;
+    background-color: rgba(250,250,250,0.8);
+}
+
+.fa-small:hover {
+    background-color: rgba(200,200,200,0.60);
+}
+
+.fa-small-up:hover, .fa-small-down:hover {
+    background-color: rgba(200,200,200,0.6);
+}
+
+.fa-active  {
+    background-color: rgba(250,250,250,0.8);
 }
 
 i.fa-social{
@@ -278,11 +317,6 @@ i.fa-github-alt:hover{
     background-color: #000;
     border: 2px solid #000;
     color:  #FFF;
-}
-
-
-.fa-small:hover {
-    background-color: rgba(200,200,200,0.60);
 }
 
 .fa-angle-double-down:hover {
