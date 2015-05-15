@@ -13,5 +13,6 @@ $( function() {
         $("button.form-reveal").slideUp( 2000, "easeInOutExpo");
 
         $(".thanks").slideDown(5000, "easeInOutExpo" );
+        return false;
     });
 })
