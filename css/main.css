@@ -49,6 +49,55 @@ hr  {
     margin: 10px;
 }
 
+/*  Loader Styles */
+@keyframes rotate {
+    from {
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+.loader {
+    position:fixed;
+    z-index:10000;
+    top:0;
+    height:100%;
+    width:100%;;
+    background-color:   #111;
+    text-align:center;
+}
+
+.loader i {
+    margin-top:20%;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.loader p {
+    text-align: center;
+    animation-name: opacity;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:  alternate;
+}
+
 /*  Left Nav Styles */
 
 .small-nav  {
