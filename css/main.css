@@ -208,6 +208,14 @@ hr  {
 
 }
 
+.btn-large:focus  {
+    background-color: #0875BD;
+}
+
+.btn-large:focus p {
+    color:  #111;
+}
+
 .btn-large p, .btn-large i {
     text-align: center;
     color:  #0875BD;
