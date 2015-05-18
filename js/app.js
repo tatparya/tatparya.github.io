@@ -4,8 +4,8 @@ var initInfo = function(){
     var name = "Tatparya Shankar";
     var tag = "Engineer | Programmer | Designer";
 
-    $(".brand-heading").append( name );
-    $(".intro-text").append( tag );
+    //$(".brand-heading").append( name );
+    //$(".intro-text").append( tag );
 
     var aboutMe = "I am Tatparya Shankar, currently pursuing an \
     undergraduate degree in the field of Computer Engineering \

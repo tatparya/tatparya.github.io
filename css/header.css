@@ -2,6 +2,11 @@
 
 /* Header Styles */
 
+blue {
+    color: #0875BD;
+    font-size: 45px;
+}
+
 .intro {
     display: table;
     width: 100%;
