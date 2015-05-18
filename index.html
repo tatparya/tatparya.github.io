@@ -21,494 +21,499 @@
 
     <!--    Body     -->
     <body>
-        <!--	Loading Screen     -->
-        <div class="loader">
-            <i class="fa fa-large fa-refresh"></i>
-            <p>Loading..</p>
-        </div>
+        <!-- Div id skrollr for mobile support -- >
+        <div id="skrollr-body">
 
-        <!--	Background     -->
-        <div class="background"
-            data-anchor-target="#intro"
-            data--100-bottom="filter:    blur(0px);"
-            data-top-center="filter:    clur(10px);">
-        </div>
+            <!--	Loading Screen     -->
+            <div class="loader">
+                <i class="fa fa-large fa-refresh"></i>
+                <p>Loading..</p>
+            </div>
 
-        <!--	Left nav     -->
-        <div class="small-nav"
-            data--100-bottom="opacity: 0;"
-            data-top-top="opacity: 1;"
-            data-anchor-target="#section-about">
-            <i id="u" class="fa fa-small-up fa-angle-up customScroll-up-down">
-            </i>
-            <i id="#section-about" class="fa fa-small about fa-active customScroll">
-            </i>
-            <i id="#section-projects" class="fa fa-small projects customScroll">
-            </i>
-            <i id="#section-social" class="fa fa-small social customScroll">
-            </i>
-            <i id="d" class="fa fa-small-down fa-angle-down customScroll-up-down">
-            </i>
-        </div>
+            <!--	Background     -->
+            <div class="background"
+                data-anchor-target="#intro"
+                data--100-bottom="filter:    blur(0px);"
+                data-top-center="filter:    clur(10px);">
+            </div>
 
-        <!--	Header     -->
-        <div class="intro" id="intro">
-            <div class="intro-body"
-                data--100-bottom="opacity: 1;"
-                data-top-center="opacity: 0;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h1 class="brand-heading"></h1>
-                            <hr/>
-                            <p class="intro-text"></p>
-                            <div class="btn-container">
-                                <div class="btn-icon" >
-                                    <a id="#section-about" class="customScroll"><i class=" fa fa-medium fa-angle-double-down"></i></a>
+            <!--	Left nav     -->
+            <div class="small-nav"
+                data--100-bottom="opacity: 0;"
+                data-top-top="opacity: 1;"
+                data-anchor-target="#section-about">
+                <i id="u" class="fa fa-small-up fa-angle-up customScroll-up-down">
+                </i>
+                <i id="#section-about" class="fa fa-small about fa-active customScroll">
+                </i>
+                <i id="#section-projects" class="fa fa-small projects customScroll">
+                </i>
+                <i id="#section-social" class="fa fa-small social customScroll">
+                </i>
+                <i id="d" class="fa fa-small-down fa-angle-down customScroll-up-down">
+                </i>
+            </div>
+
+            <!--	Header     -->
+            <div class="intro" id="intro">
+                <div class="intro-body"
+                    data--100-bottom="opacity: 1;"
+                    data-top-center="opacity: 0;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h1 class="brand-heading"></h1>
+                                <hr/>
+                                <p class="intro-text"></p>
+                                <div class="btn-container">
+                                    <div class="btn-icon" >
+                                        <a id="#section-about" class="customScroll"><i class=" fa fa-medium fa-angle-double-down"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--    Main Content     -->
-        <div class="jumbotron" id="section-about">
-            <div class="section"
-                data-bottom-top="opacity: 0;"
-                data-center="opacity:1;"
-                data-anchor-target="#about-header">
-                <div class="row">
-                    <h1 id="about-header">About Me <i class="fa fa-user"></i></h1>
-                    <div class="hor-rule"
-                        data-bottom="width: 0%; margin-left: 50%;"
-                        data-150-center="width:100%; margin-left: 0%;">
-                        <hr/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="large-12 columns">
-                        <p id="about-text"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="jumbotron-alt" id="section-skills">
-            <div class="section"
-                data-bottom-top="opacity: 0;"
-                data-center="opacity:1;"
-                data-anchor-target="#skills-header">
-                <div class="row">
-                    <h1 id="skills-header">Skills And Interests <i class="fa fa-wrench"></i></h1>
-                    <div class="hor-rule"
-                        data-bottom="width: 0%; margin-left: 50%;"
-                        data-150-center="width:100%; margin-left: 0%;">
-                        <hr/>
-                    </div>
-                </div>
-                <br/>
-                <div class="row">
-                    <div class="large-4 columns medium-6">
-                        <div class="btn-container">
-                            <div class="btn-icon">
-                                <i class="fa fa-large fa-cog"></i>
-                            </div>
-                            <h3>Machine Learning</h3>
+            <!--    Main Content     -->
+            <div class="jumbotron" id="section-about">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center="opacity:1;"
+                    data-anchor-target="#about-header">
+                    <div class="row">
+                        <h1 id="about-header">About Me <i class="fa fa-user"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
                         </div>
                     </div>
-                    <div class="large-4 columns medium-6">
-                        <div class="btn-container">
-                            <div class="btn-icon">
-                                <i class="fa fa-large fa-lightbulb-o"></i>
-                            </div>
-                            <h3>Artificial Intelligence</h3>
-                        </div>
-                    </div>
-                    <div class="large-4 columns medium-6">
-                        <div class="btn-container">
-                            <div class="btn-icon">
-                                <i class="fa fa-large fa-laptop"></i>
-                            </div>
-                            <h3>Web Development</h3>
-                        </div>
-                    </div>
-                    <br/>
-                    <div class="large-4 columns medium-6">
-                        <div class="btn-container">
-                            <div class="btn-icon">
-                                <i class="fa fa-large fa-android"></i>
-                            </div>
-                            <h3>Android Development</h3>
-                        </div>
-                    </div>
-                    <div class="large-4 columns medium-6">
-                        <div class="btn-container">
-                            <div class="btn-icon">
-                                <i class="fa fa-large fa-globe"></i>
-                            </div>
-                            <h3>Cyber Security</h3>
-                        </div>
-                    </div>
-                    <div class="large-4 columns medium-6">
-                        <div class="btn-container">
-                            <div class="btn-icon">
-                                <i class="fa fa-large fa-mortar-board"></i>
-                            </div>
-                            <h3>Entrepreneurship</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="trans-panel">
-        </div>
-
-        <div class="jumbotron" id="section-projects">
-            <div class="section"
-                data-bottom-top="opacity: 0;"
-                data-center="opacity:1;"
-                data-anchor-target="#project-header">
-                <div class="row">
-                    <h1 id="project-header">Personal Projects <i class="fa fa-file"></i></h1>
-                    <div class="hor-rule"
-                        data-bottom="width: 0%; margin-left: 50%;"
-                        data-150-center="width:100%; margin-left: 0%;">
-                        <hr/>
-                    </div>
-                </div>
-                <br/>
-                <div class="row">
-                    <div class="large-4 columns medium-6" id="grid1">
-                        <div class="btn-container">
-                            <div class="grid-cell">
-                                <i class="fa fa-large-icon fa-file-image-o"></i>
-                            </div>
-                            <h3>Steganograhpy</h3>
-                        </div>
-
-                        <div class="overlay-info" id="desc1">
-                            <p>
-                                <b>Stack : Python, QT GUI</b>
-                            </p>
-                            <p>
-                                Hiding in plainsight. Used Python's PILLOW library
-                                to embed image and text messages into another image
-                                medium without having to significantly modify the
-                                medium.
-                            </p>
-                            <p style="text-align:   center;">
-                                <a href="https://github.com/tatparya/Steganography"><i class="fa fa-github"></i> View on Github</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="large-4 columns medium-6" id="grid2">
-                        <div class="btn-container">
-                            <div class="grid-cell">
-                                <i class="fa fa-large-icon fa-users"></i>
-                            </div>
-                            <h3>Social Media Generation</h3>
-                        </div>
-                        <div class="overlay-info" id="desc2">
-                            <p>
-                                <b>Stack : C <i class="fa fa-angle-double-right"></i> Graphing, Dijkstra's Algorithm</b>
-                            </p>
-                            <p>
-                                Created a Social Media Graph using graphing algorithms with given inputs of up to 1000
-                                data points. Implemented Dijkstra's algorithm to find certain
-                                threshold parameters.
-                            </p>
-                            <p style="text-align:   center;">
-                                <a href="https://github.com/tatparya/ECE368P3-Social-Media-Generation"><i class="fa fa-github"></i> View on Github</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="large-4 columns medium-6" id="grid3">
-                        <div class="btn-container">
-                            <div class="grid-cell">
-                                <i class="fa fa-large-icon fa-twitter-square"></i>
-                            </div>
-                            <h3>Twitter Connections</h3>
-                        </div>
-                        <div class="overlay-info" id="desc3">
-                            <p>
-                                <b>Stack : Java, Android, Twitter API</b>
-                            </p>
-                            <p>
-                                Designed an android application using the Twitter API.
-                                Much like UBER, an application to post service requests
-                                to Twitter and filter out tweets for another end user willing
-                                to provide those services.
-                            </p>
-                            <p style="text-align:   center;">
-                                <a href="https://github.com/apoorvvw/Android_Projects/tree/master/Connections"><i class="fa fa-github"></i> View on Github</a>
-                            </p>
-                        </div>
-                    </div>
-                    <br/>
-                    <div class="large-4 columns medium-6" id="grid4">
-                        <div class="btn-container">
-                            <div class="grid-cell">
-                                <i class="fa fa-large-icon fa-yelp  "></i>
-                            </div>
-                            <h3>Yelp Ratings</h3>
-                        </div>
-                        <div class="overlay-info" id="desc4">
-                            <p>
-                                <b>Stack : C <i class="fa fa-angle-double-right"></i> Binary Search Tree</b>
-                            </p>
-                            <p>
-                                Implemented a Binary Search Tree Algorithm and complex data
-                                structures to search restaurant ratings and reviews in over
-                                10,000 data points.
-                            </p>
-                            <p style="text-align:   center;">
-                                <a href="https://github.com/tatparya/ECE264/tree/master/PA09"><i class="fa fa-github"></i> View on Github</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="large-4 columns medium-6" id="grid5">
-                        <div class="btn-container">
-                            <div class="grid-cell">
-                                <i class="fa fa-large-icon fa-gamepad"></i>
-                            </div>
-                            <h3>Interactive Arduino Game</h3>
-                        </div>
-                        <div class="overlay-info" id="desc5">
-                            <p>
-                                <b>Stack : C++ <i class="fa fa-angle-double-right"></i> Multi-threading, Arduino API, </b>
-                            </p>
-                            <p>
-                                Developed an interactive game in C++ using an
-                                Arduino Microprocessor. Integrated ping sensors
-                                with palm movements to control the gameplay, making
-                                the game much more fun!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="large-4 columns medium-6" id="grid6">
-                        <div class="btn-container">
-                            <div class="grid-cell">
-                                <i class="fa fa-large-icon fa-html5"></i>
-                            </div>
-                            <h3>Personal Website</h3>
-                        </div>
-                        <div class="overlay-info" id="desc6">
-                            <p>
-                                <b>Stack : HTML, CSS, JavaScript</b>
-                            </p>
-                            <p>
-                                Implemented Foundation, custom Javascript and HTML
-                                to create this highly interavtive web page. Please
-                                follow the Github link for further documentation.
-                            </p>
-                            <p style="text-align:   center;">
-                                <a href="https://github.com/tatparya/tatparya.github.io"><i class="fa fa-github"></i> View on Github</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <br><br>
-                <div class="row">
-                    <p style="text-align: center;">
-                        <i>Hover over sections for more information</i>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="jumbotron-alt" id="section-resume">
-            <div class="section"
-                data-bottom-top="opacity: 0;"
-                data-center="opacity:1;"
-                data-anchor-target="#resume-header">
-                <div class="row">
-                    <h1 id="resume-header">View My Resume <i class="fa fa-list"></i></h1>
-                    <div class="hor-rule"
-                        data-bottom="width: 0%; margin-left: 50%;"
-                        data-150-center="width:100%; margin-left: 0%;">
-                        <hr/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="large-12 columns">
-                        <form method="get" action="Tatparya_Shankar_Resume_Spring2015.pdf">
-                            <button class="btn-large" type="submit"><p>View Resume</p></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="trans-panel">
-        </div>
-        <div class="jumbotron" id="section-social">
-            <div class="section"
-                data-bottom-top="opacity: 0;"
-                data--50-bottom="opacity:1;">
-                <div class="row">
-                    <h1>Follow Me On Social Media <i class="fa fa-comments-o"></i></h1>
-                    <div class="hor-rule"
-                        data-bottom="width: 0%; margin-left: 50%;"
-                        data--50-bottom="width:100%; margin-left: 0%;">
-                        <hr/>
-                    </div>
-                </div>
-                <br><br>
-                <div class="row">
-                    <div class="large-3 columns medium-6">
-                        <div class="social-icon">
-                            <a href="https://www.facebook.com/tatparya.shankar"><i class="fa fa-large-icon fa-social fa-facebook"></i></a>
-                        </div>
-                        <h3>Facebook</h3>
-                    </div>
-                    <div class="large-3 columns medium-6">
-                        <div class="social-icon">
-                            <a href="https://twitter.com/tatparya369"><i class="fa fa-large-icon fa-social fa-twitter"></i></a>
-                        </div>
-                        <h3>Twitter</h3>
-                    </div>
-                    <div class="large-3 columns medium-6">
-                        <div class="social-icon">
-                            <a href="https://www.linkedin.com/in/tatparya"><i class="fa fa-large-icon fa-social fa-linkedin"></i></a>
-                        </div>
-                        <h3>LinkedIn</h3>
-                    </div>
-                    <div class="large-3 columns medium-6">
-                        <div class="social-icon">
-                            <a href="https://github.com/tatparya"><i class="fa fa-large-icon fa-social fa-github-alt"></i></a>
-                        </div>
-                        <h3>Github</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="jumbotron-alt" id="section-contact">
-            <div class="section"
-                data-bottom-top="opacity: 0;"
-                data-center-top="opacity:1;">
-                <div class="row">
-                    <h1>Contact Me <i class="fa fa-mobile-phone"></i></h1>
-                    <div class="hor-rule"
-                        data-bottom="width: 0%; margin-left: 50%;"
-                        data-150-center="width:100%; margin-left: 0%;">
-                        <hr/>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="large-6 columns">
-                        <h2>Email <i class="fa fa-inbox"></i></h2>
-                        <p style="text-align:center;">
-                            tshankar@purdue.edu<br>
-                            tatparya.shankar@gmail.com
-                        </p>
-                    </div>
-                    <div class="large-6 columns">
-                        <h2>Phone <i class="fa fa-phone"></i></h2>
-                        <p style="text-align:center;">
-                            +1-765-637-3307 ( USA )<br>
-                            +91-9871210055 ( India )
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
                     <div class="row">
                         <div class="large-12 columns">
-                            <a href="#" data-reveal-id="myModal">
-                                <button id="#section-form" class="btn-large form-reveal customScroll" onclick="return false;"><p>Get in touch with me</p></button>
-                            </a>
+                            <p id="about-text"></p>
                         </div>
                     </div>
-                    <br id="section-form">
-                    <div id="email-form" class="row form-div" style="display:none;">
-                        <div style="text-align: center ">
-                            <h2>Almost There!</h2>
-                            <p>Please fill in the form below to get in touch!</p>
+                </div>
+            </div>
+            <div class="jumbotron-alt" id="section-skills">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center="opacity:1;"
+                    data-anchor-target="#skills-header">
+                    <div class="row">
+                        <h1 id="skills-header">Skills And Interests <i class="fa fa-wrench"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-cog"></i>
+                                </div>
+                                <h3>Machine Learning</h3>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-lightbulb-o"></i>
+                                </div>
+                                <h3>Artificial Intelligence</h3>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-laptop"></i>
+                                </div>
+                                <h3>Web Development</h3>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-android"></i>
+                                </div>
+                                <h3>Android Development</h3>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-globe"></i>
+                                </div>
+                                <h3>Cyber Security</h3>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6">
+                            <div class="btn-container">
+                                <div class="btn-icon">
+                                    <i class="fa fa-large fa-mortar-board"></i>
+                                </div>
+                                <h3>Entrepreneurship</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                            <!--    Contact Form    -->
-                            <form>
-                                <div class="row">
-                                    <div class="large-2 columns medium-4">
-                                        <p>
-                                            Name
-                                        </p>
-                                    </div>
-                                    <div class="large-10 columns medium-6">
-                                        <label>
-                                            <input class="field" type="text" name="name">
-                                        </label>
-                                    </div>
+            <div class="trans-panel">
+            </div>
+
+            <div class="jumbotron" id="section-projects">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center="opacity:1;"
+                    data-anchor-target="#project-header">
+                    <div class="row">
+                        <h1 id="project-header">Personal Projects <i class="fa fa-file"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <div class="large-4 columns medium-6" id="grid1">
+                            <div class="btn-container">
+                                <div class="grid-cell">
+                                    <i class="fa fa-large-icon fa-file-image-o"></i>
                                 </div>
-                                <div class="row">
-                                    <div class="large-2 columns medium-4">
-                                        <p>
-                                            Email
-                                        </p>
-                                    </div>
-                                    <div class="large-10 columns medium-6">
-                                        <label>
-                                            <input class="field" type="email" name="email">
-                                        </label>
-                                    </div>
+                                <h3>Steganograhpy</h3>
+                            </div>
+
+                            <div class="overlay-info" id="desc1">
+                                <p>
+                                    <b>Stack : Python, QT GUI</b>
+                                </p>
+                                <p>
+                                    Hiding in plainsight. Used Python's PILLOW library
+                                    to embed image and text messages into another image
+                                    medium without having to significantly modify the
+                                    medium.
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/tatparya/Steganography"><i class="fa fa-github"></i> View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6" id="grid2">
+                            <div class="btn-container">
+                                <div class="grid-cell">
+                                    <i class="fa fa-large-icon fa-users"></i>
                                 </div>
-                                <div class="row">
-                                    <div class="large-2 columns medium-4">
-                                        <p>
-                                            Subject
-                                        </p>
-                                    </div>
-                                    <div class="large-10 columns medium-6">
-                                        <label>
-                                            <input class="field" type="text" name="subject">
-                                        </label>
-                                    </div>
+                                <h3>Social Media Generation</h3>
+                            </div>
+                            <div class="overlay-info" id="desc2">
+                                <p>
+                                    <b>Stack : C <i class="fa fa-angle-double-right"></i> Graphing, Dijkstra's Algorithm</b>
+                                </p>
+                                <p>
+                                    Created a Social Media Graph using graphing algorithms with given inputs of up to 1000
+                                    data points. Implemented Dijkstra's algorithm to find certain
+                                    threshold parameters.
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/tatparya/ECE368P3-Social-Media-Generation"><i class="fa fa-github"></i> View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6" id="grid3">
+                            <div class="btn-container">
+                                <div class="grid-cell">
+                                    <i class="fa fa-large-icon fa-twitter-square"></i>
                                 </div>
-                                <div class="row">
-                                    <div class="large-2 columns medium-4">
-                                        <p>
-                                            Body
-                                        </p>
-                                    </div>
-                                    <div class="large-10 columns medium-6">
-                                        <label>
-                                            <textarea class="field" name="body"></textarea>
-                                        </label>
-                                    </div>
+                                <h3>Twitter Connections</h3>
+                            </div>
+                            <div class="overlay-info" id="desc3">
+                                <p>
+                                    <b>Stack : Java, Android, Twitter API</b>
+                                </p>
+                                <p>
+                                    Designed an android application using the Twitter API.
+                                    Much like UBER, an application to post service requests
+                                    to Twitter and filter out tweets for another end user willing
+                                    to provide those services.
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/apoorvvw/Android_Projects/tree/master/Connections"><i class="fa fa-github"></i> View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="large-4 columns medium-6" id="grid4">
+                            <div class="btn-container">
+                                <div class="grid-cell">
+                                    <i class="fa fa-large-icon fa-yelp  "></i>
                                 </div>
-                                <div class="row">
-                                    <div class="large-12 columns medium-12">
-                                        <button id="#section-contact" class="btn-large btn-send" ><p>Send <i class="fa fa-send"></i></p></button>
-                                    </div>
+                                <h3>Yelp Ratings</h3>
+                            </div>
+                            <div class="overlay-info" id="desc4">
+                                <p>
+                                    <b>Stack : C <i class="fa fa-angle-double-right"></i> Binary Search Tree</b>
+                                </p>
+                                <p>
+                                    Implemented a Binary Search Tree Algorithm and complex data
+                                    structures to search restaurant ratings and reviews in over
+                                    10,000 data points.
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/tatparya/ECE264/tree/master/PA09"><i class="fa fa-github"></i> View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6" id="grid5">
+                            <div class="btn-container">
+                                <div class="grid-cell">
+                                    <i class="fa fa-large-icon fa-gamepad"></i>
                                 </div>
+                                <h3>Interactive Arduino Game</h3>
+                            </div>
+                            <div class="overlay-info" id="desc5">
+                                <p>
+                                    <b>Stack : C++ <i class="fa fa-angle-double-right"></i> Multi-threading, Arduino API, </b>
+                                </p>
+                                <p>
+                                    Developed an interactive game in C++ using an
+                                    Arduino Microprocessor. Integrated ping sensors
+                                    with palm movements to control the gameplay, making
+                                    the game much more fun!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="large-4 columns medium-6" id="grid6">
+                            <div class="btn-container">
+                                <div class="grid-cell">
+                                    <i class="fa fa-large-icon fa-html5"></i>
+                                </div>
+                                <h3>Personal Website</h3>
+                            </div>
+                            <div class="overlay-info" id="desc6">
+                                <p>
+                                    <b>Stack : HTML, CSS, JavaScript</b>
+                                </p>
+                                <p>
+                                    Implemented Foundation, custom Javascript and HTML
+                                    to create this highly interavtive web page. Please
+                                    follow the Github link for further documentation.
+                                </p>
+                                <p style="text-align:   center;">
+                                    <a href="https://github.com/tatparya/tatparya.github.io"><i class="fa fa-github"></i> View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <p style="text-align: center;">
+                            <i>Hover over sections for more information</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron-alt" id="section-resume">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center="opacity:1;"
+                    data-anchor-target="#resume-header">
+                    <div class="row">
+                        <h1 id="resume-header">View My Resume <i class="fa fa-list"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <form method="get" action="Tatparya_Shankar_Resume_Spring2015.pdf">
+                                <button class="btn-large" type="submit"><p>View Resume</p></button>
                             </form>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="trans-panel">
+            </div>
+            <div class="jumbotron" id="section-social">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data--50-bottom="opacity:1;">
                     <div class="row">
-                        <div class="large-12 columns thanks" style="display:none;">
-                            <p style="text-align: center; position: relative; ">
-                                <b><i class="fa fa-quote-left"></i> Thank You! Your email was successfully sent.</b>
-                            </p>
+                        <h1>Follow Me On Social Media <i class="fa fa-comments-o"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data--50-bottom="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="large-3 columns medium-6">
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/tatparya.shankar"><i class="fa fa-large-icon fa-social fa-facebook"></i></a>
+                            </div>
+                            <h3>Facebook</h3>
+                        </div>
+                        <div class="large-3 columns medium-6">
+                            <div class="social-icon">
+                                <a href="https://twitter.com/tatparya369"><i class="fa fa-large-icon fa-social fa-twitter"></i></a>
+                            </div>
+                            <h3>Twitter</h3>
+                        </div>
+                        <div class="large-3 columns medium-6">
+                            <div class="social-icon">
+                                <a href="https://www.linkedin.com/in/tatparya"><i class="fa fa-large-icon fa-social fa-linkedin"></i></a>
+                            </div>
+                            <h3>LinkedIn</h3>
+                        </div>
+                        <div class="large-3 columns medium-6">
+                            <div class="social-icon">
+                                <a href="https://github.com/tatparya"><i class="fa fa-large-icon fa-social fa-github-alt"></i></a>
+                            </div>
+                            <h3>Github</h3>
                         </div>
                     </div>
                 </div>
-                <div class="btn-icon-up" >
-                    <a id="#intro" class="customScroll"><i class="fa fa-medium fa-angle-double-up"></i></a>
+            </div>
+            <div class="jumbotron-alt" id="section-contact">
+                <div class="section"
+                    data-bottom-top="opacity: 0;"
+                    data-center-top="opacity:1;">
+                    <div class="row">
+                        <h1>Contact Me <i class="fa fa-mobile-phone"></i></h1>
+                        <div class="hor-rule"
+                            data-bottom="width: 0%; margin-left: 50%;"
+                            data-150-center="width:100%; margin-left: 0%;">
+                            <hr/>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <h2>Email <i class="fa fa-inbox"></i></h2>
+                            <p style="text-align:center;">
+                                tshankar@purdue.edu<br>
+                                tatparya.shankar@gmail.com
+                            </p>
+                        </div>
+                        <div class="large-6 columns">
+                            <h2>Phone <i class="fa fa-phone"></i></h2>
+                            <p style="text-align:center;">
+                                +1-765-637-3307 ( USA )<br>
+                                +91-9871210055 ( India )
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <a href="#" data-reveal-id="myModal">
+                                    <button id="#section-form" class="btn-large form-reveal customScroll" onclick="return false;"><p>Get in touch with me</p></button>
+                                </a>
+                            </div>
+                        </div>
+                        <br id="section-form">
+                        <div id="email-form" class="row form-div" style="display:none;">
+                            <div style="text-align: center ">
+                                <h2>Almost There!</h2>
+                                <p>Please fill in the form below to get in touch!</p>
+
+                                <!--    Contact Form    -->
+                                <form>
+                                    <div class="row">
+                                        <div class="large-2 columns medium-4">
+                                            <p>
+                                                Name
+                                            </p>
+                                        </div>
+                                        <div class="large-10 columns medium-6">
+                                            <label>
+                                                <input class="field" type="text" name="name">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-2 columns medium-4">
+                                            <p>
+                                                Email
+                                            </p>
+                                        </div>
+                                        <div class="large-10 columns medium-6">
+                                            <label>
+                                                <input class="field" type="email" name="email">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-2 columns medium-4">
+                                            <p>
+                                                Subject
+                                            </p>
+                                        </div>
+                                        <div class="large-10 columns medium-6">
+                                            <label>
+                                                <input class="field" type="text" name="subject">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-2 columns medium-4">
+                                            <p>
+                                                Body
+                                            </p>
+                                        </div>
+                                        <div class="large-10 columns medium-6">
+                                            <label>
+                                                <textarea class="field" name="body"></textarea>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-12 columns medium-12">
+                                            <button id="#section-contact" class="btn-large btn-send" ><p>Send <i class="fa fa-send"></i></p></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-12 columns thanks" style="display:none;">
+                                <p style="text-align: center; position: relative; ">
+                                    <b><i class="fa fa-quote-left"></i> Thank You! Your email was successfully sent.</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-icon-up" >
+                        <a id="#intro" class="customScroll"><i class="fa fa-medium fa-angle-double-up"></i></a>
+                    </div>
+
                 </div>
 
             </div>
 
-        </div>
+            <div class="trans-panel" style="text-align:center">
 
-        <div class="trans-panel" style="text-align:center">
+            </div>
 
-        </div>
+            <!--    Footer     -->
+            <div class="footer">
+                <p>
+                    © Tatparya Shankar 2015
+                </p>
+            </div>
 
-        <!--    Footer     -->
-        <div class="footer">
-            <p>
-                © Tatparya Shankar 2015
-            </p>
         </div>
 
         <!--    Scripts     -->
