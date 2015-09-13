@@ -12,7 +12,7 @@ var initInfo = function(){
     from Purdue University. A very passionate and quick learner \
     with a strong base of object oriented programming. I am very \
     passionate about machine learning, cyber security, \
-    aritificial intelligence and web development. I am seeking a challenging \
+    artificial intelligence and web development. I am seeking a challenging \
     work environment and a position of responsibility that would \
     allow me to utilize and further refine my technical and \
     interpersonal skills and also enrich my knowledge.";
